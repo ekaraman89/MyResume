@@ -82,7 +82,7 @@ $(document).ready(function () {
             var $div = $(this);
             var img = document.createElement('img');
             var img_name = $div.attr("data-img-name");
-            img.src = "./assets/img/menu/" + img_name + ".gif?t=" + new Date().getTime();
+            img.src = "./Content/assets/img/menu/" + img_name + ".gif?t=" + new Date().getTime();
 
             $(img).load(function () {
                 $div.attr("src", img.src);
@@ -91,7 +91,7 @@ $(document).ready(function () {
         mouseleave: function () {
             var $div = $(this);
             var img_name = $div.attr("data-img-name");
-            var src = "./assets/img/menu/" + img_name + ".png";
+            var src = "./Content/assets/img/menu/" + img_name + ".png";
             $div.attr("src", src);
 
         }
@@ -450,7 +450,7 @@ $(document).ready(function () {
 
         $.cookie("colour-scheme", id);
 
-        $(style).attr('href', 'assets/css/colour-scheme/' + id + '.css');
+        $(style).attr('href', 'Content/assets/css/colour-scheme/' + id + '.css');
         $(style).attr('data-color', colour_scheme);
         $.cookie("colour-skills", $(this).attr('data-color'));
     });
@@ -490,7 +490,7 @@ $(document).ready(function () {
     var box_shadow = $.cookie("box-shadow");
 
     if (colour_scheme != "" && colour_scheme != undefined) {
-        $(style).attr('href', 'assets/css/colour-scheme/' + colour_scheme + '.css');
+        $(style).attr('href', 'Content/assets/css/colour-scheme/' + colour_scheme + '.css');
         $(style).attr('data-color', colour_scheme);
     } else {
         $.cookie("colour-scheme", "color-blue");
