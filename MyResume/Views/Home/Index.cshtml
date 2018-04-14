@@ -1,0 +1,111 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<!-- Start Home-header section -->
+<section class="home-header border-bottom padding-block">
+    <!-- start container -->
+    <div class="container">
+        <!-- start row -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-5 col-lg-5 text-right">
+                <!-- Your foto -->
+                <div class="foto">
+                    <!-- for man -->
+                    <img src="./Content/assets/img/photo.png" alt="Ukieweb">
+                    <!-- for women -->
+                    <!-- <img src="./Content/assets/img/photo_female.png" alt="Ukieweb"> -->
+                </div>
+                <!-- end your foto -->
+            </div>
+            <div class="col-xs-12 col-sm-7 col-lg-7">
+                <!-- Your Name -->
+                <h1 class="title">Emrah Karaman</h1>
+                <!-- Your Profession -->
+                <h3 class="sub-title">Software Developer</h3>
+                <!-- social icon -->
+                <div class="social">
+                    <ul class="animated" data-animation="fadeIn" data-animation-delay="600">
+                        <!-- social icons -->
+                        <li><a class="ukie-icons hover-animate" href="https://www.facebook.com/ekaramannn"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="ukie-icons hover-animate" href="https://twitter.com/emrah_karaman"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="ukie-icons hover-animate" href="https://www.instagram.com/devriimmm/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a class="ukie-icons hover-animate" href="https://www.linkedin.com/in/emrah-karaman-09357148/"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a class="ukie-icons hover-animate" href="https://plus.google.com/u/0/+emrahkaraman"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a class="ukie-icons hover-animate" href="https://github.com/ekaraman89"><i class="fa fa-github-alt"></i></a></li>
+                    </ul>
+                </div>
+                <!-- end social icon -->
+            </div>
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</section>
+<!-- End Home-header section -->
+<!-- Start Menu section -->
+<nav class="menu">
+    <!-- start container -->
+    <div class="container">
+        <!-- start row -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-lg-12">
+                <!-- start menu block (profile) -->
+                <a href="@Url.RouteUrl("Profile")" class="menu-li">
+                    <!-- img menu block -->
+                    <span class="foto">
+                        <img src="./Content/assets/img/menu/profile.png" class="menu-img" data-img-name="profile" alt="Ukieweb" />
+                    </span>
+                    <!-- name menu block -->
+                    <span class="name">Profile</span>
+                </a>
+                <!-- end menu block (profile) -->
+                <!-- start menu block (resume) -->
+                <a href="@Url.RouteUrl("Resume")" class="menu-li">
+                    <!-- img menu block -->
+                    <span class="foto">
+                        <img src="./Content/assets/img/menu/resume.png" class="menu-img" data-img-name="resume" alt="Ukieweb">
+                    </span>
+                    <!-- name menu block -->
+                    <span class="name">Resume</span>
+                </a>
+                <!-- end menu block (resume) -->
+                <!-- start menu block (portfolio) -->
+                <a href="@Url.RouteUrl("Portfolio")" class="menu-li">
+                    <!-- img menu block -->
+                    <span class="foto">
+                        <img src="./Content/assets/img/menu/portfolio.png" class="menu-img" data-img-name="portfolio" alt="Ukieweb">
+                    </span>
+                    <!-- name menu block -->
+                    <span class="name">Portfolio</span>
+                </a>
+                <!-- end menu block (portfolio) -->
+                <!-- start menu block (blog) -->
+                <a href="@Url.RouteUrl("Blog")" class="menu-li">
+                    <!-- img menu block -->
+                    <span class="foto">
+                        <img src="./Content/assets/img/menu/blog.png" class="menu-img" data-img-name="blog" alt="Ukieweb">
+                    </span>
+                    <!-- name menu block -->
+                    <span class="name">Blog</span>
+                </a>
+                <!-- end menu block (portfolio) -->
+                <!-- start menu block (contact) -->
+                <a href="@Url.RouteUrl("Contact")" class="menu-li">
+                    <!-- img menu block -->
+                    <span class="foto">
+                        <img src="./Content/assets/img/menu/contact.png" class="menu-img" data-img-name="contact" alt="Ukieweb">
+                    </span>
+                    <!-- name menu block -->
+                    <span class="name">Contact</span>
+                </a>
+                <!-- end menu block (contact) -->
+            </div>
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</nav>
+<!-- End Menu section -->
