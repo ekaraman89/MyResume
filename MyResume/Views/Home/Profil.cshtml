@@ -1,8 +1,136 @@
 ﻿
 @{
     ViewBag.Title = "Profil";
-    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Profil</h2>
-
+<!-- Start Head section -->
+<header class="head">
+    <!-- start container -->
+    <div class="container">
+        <!-- start row -->
+        <div class="row">
+            <div class="col-xs-8 col-sm-11 col-lg-11">
+                <img class="logo-page" src="./Content/assets/img/profile_l.png" alt="Ukieweb">
+                <!-- Title Page -->
+                <h2 class="title">Profil</h2>
+                <!-- Description Page -->
+                <h4 class="sub-title">Kısaca Ben</h4>
+            </div>
+            <div class="col-xs-4 col-sm-1 col-lg-1 text-right">
+                <a href="@Url.RouteUrl("Home")" class="btn-close hover-animate"></a>
+            </div>
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</header>
+<!-- End Head section -->
+<!-- Start Content section -->
+<section class="content border-bottom padding-block">
+    <!-- start container -->
+    <div class="container">
+        <!-- start row -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-lg-7 padding-bottom">
+                <h3 class="title">Merhaba, Hayatı kodlayanlardan birisi</h3>
+                <p>
+                    Dokuz Eylül Üniversitesi Bilgisayar Programcılığı ön lisans mezunu ve Trakya Üniversitesi Bilgisayar Mühendisliği öğrencisi olmakla beraber varlığından bile haberdar olmadığınız, hatta çok da anlamadığınız problemleri çözen kişi
+                </p>
+                <p>
+                    C# ile .NET projeleri ile uğraşmayı seven bilgisayar mühendisi adayı.
+                </p>
+                <p>
+                    Okurum, öğrenirim, düşünürüm ve kod yazarım...
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-lg-5">
+                <div class="block-grey">
+                    <table>
+                        <tr>
+                            <td class="font-weight-m">İsim</td>
+                            <td class="text-right">Emrah Karaman</td>
+                        </tr>
+                        <tr>
+                            <td class="font-weight-m">Doğum Tarihi</td>
+                            <td class="text-right">16 Ekim 1989</td>
+                        </tr>
+                        <tr>
+                            <td class="font-weight-m">E-mail</td>
+                            <td class="text-right"><a href="mailto:ekaraman89@hotmail.com">ekaraman89@hotmail.com</a></td>
+                        </tr>
+                        <tr>
+                            <td class="font-weight-m">Adres</td>
+                            <td class="text-right">Şimdilik Edirne</td>
+                        </tr>
+                        <tr>
+                            <td class="font-weight-m">Phone</td>
+                            <td class="text-right"><a href="tel:+905377049976">537 704 99 76</a></td>
+                        </tr>
+                        <tr>
+                            <td class="font-weight-m">Website</td>
+                            <td class="text-right"><a href="#">şuan web sitemdesin :)</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="font-weight-m"><i class="fa fa-circle green-marker" aria-hidden="true"></i>Proje yapmaya hazır</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</section>
+<!-- End Content section -->
+<!-- Start Info section -->
+<section class="info border-bottom padding-block text-center">
+    <!-- start container -->
+    <div class="container">
+        <!-- start row -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-lg-12">
+                <h3 class="title">Neler Yapıyorum</h3>
+            </div>
+        </div>
+        <!-- end row -->
+        <!-- start row -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-lg-12">
+                <div class="circle-block ">
+                    <span class="icon hover-animate"><i class="fa fa-code"></i></span>
+                    <span class="name hover-animate">Uygulama</span>
+                </div>
+                <div class="circle-block">
+                    <span class="icon hover-animate"><i class="fa fa-desktop"></i></span>
+                    <span class="name hover-animate">Web Site</span>
+                </div>
+                <div class="circle-block">
+                    <span class="icon hover-animate"><i class="fa fa-university"></i></span>
+                    <span class="name hover-animate">Öğreniyorum</span>
+                </div>
+            </div>
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</section>
+<!-- End Info section -->
+<!-- Start My thoughts section -->
+<section class="my-thoughts padding-block text-center">
+    <!-- start container -->
+    <div class="container">
+        <!-- start row -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-lg-12">
+                <div class="animated">
+                    <i class="fa fa-quote-left ukie-icons hover-animate"></i>
+                </div>
+                <p class="thoughts">Programlama sürecini kod satırlarıyla ölçümlemek, bir uçağın inşa sürecini ağırlığıyla ölçümlemeye benzer </p>
+                <h4 class="sub-title">Bill Gates</h4>
+            </div>
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</section>
+<!-- End My thoughts section -->
