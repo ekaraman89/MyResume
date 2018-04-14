@@ -10,11 +10,11 @@ namespace MyResume
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute("Home", "", new { controller = "Home", action = "Index" });
-            routes.MapRoute("Profile", "", new { controller = "Home", action = "Profile" });
-            routes.MapRoute("Resume", "", new { controller = "Home", action = "Resume" });
-            routes.MapRoute("Portfolio", "", new { controller = "Home", action = "Portfolio" });
-            routes.MapRoute("Blog", "", new { controller = "Home", action = "Blog" });
-            routes.MapRoute("Contact", "", new { controller = "Home", action = "Contact" });
+            routes.MapRoute("Profile", "Profile", new { controller = "Home", action = "Profil" });
+            routes.MapRoute("Resume", "Resume", new { controller = "Home", action = "Resume" });
+            routes.MapRoute("Portfolio", "Portfolio", new { controller = "Home", action = "Portfolio" });
+            routes.MapRoute("Blog", "Blog", new { controller = "Home", action = "Blog" });
+            routes.MapRoute("Contact", "Contact", new { controller = "Home", action = "Contact" });
 
         }
     }
