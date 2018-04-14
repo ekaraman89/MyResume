@@ -14,7 +14,12 @@ namespace MyResume.Controllers
             return View();
         }
 
-        public ActionResult Profile()
+        public ActionResult Profil()
+        {
+            return View();
+        }
+
+        public ActionResult Blog()
         {
             return View();
         }
