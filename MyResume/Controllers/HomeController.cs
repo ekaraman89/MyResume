@@ -27,6 +27,7 @@ namespace MyResume.Controllers
         public ActionResult Resume()
         {
             return View();
+
         }
 
         public ActionResult Portfolio()
